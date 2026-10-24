@@ -1,0 +1,51 @@
+baseURL = '/'
+languageCode = 'zh-CN'
+defaultContentLanguage = 'zh'
+title = '许卜仁'
+theme = 'PaperMod'
+enableEmoji = true
+
+[pagination]
+pagerSize = 10
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[outputs]
+home = ['HTML', 'RSS', 'JSON']
+
+[menu]
+[[menu.main]]
+identifier = 'archives'
+name = '归档'
+url = '/archives/'
+weight = 10
+[[menu.main]]
+identifier = 'search'
+name = '搜索'
+url = '/search/'
+weight = 20
+
+[params]
+defaultTheme = 'auto'
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+
+[params.homeInfoParams]
+Title = '你好，我是卜仁 👋'
+Content = '具身智能工程师 · 量化投资 · 认知科学。这里是我的公开笔记本——把 Obsidian 里值得见人的部分搬出来，写给也写给自己。'
+
+[[params.socialIcons]]
+name = 'github'
+title = 'GitHub'
+url = 'https://github.com/你的用户名'
+
+[[params.socialIcons]]
+name = 'email'
+title = '邮箱'
+url = 'mailto:你的邮箱@example.com'
